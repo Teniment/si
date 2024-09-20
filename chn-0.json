@@ -1,0 +1,237 @@
+[
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "69t79.com"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "(960|650)X(60|80|150).(gif|png)"
+  },
+  "id": 66
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "meitui.org"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "meitui.org\\/[a-z][a-z].js"
+  },
+  "id": 162
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "meitui.org"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "meitui.org\\/[a-z].js"
+  },
+  "id": 163
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "91ron.org"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "tuuu.me\\/\\d*.gif"
+  },
+  "id": 289
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "higu.tv"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\/upload\\/[a-z0-9]{7}\\/[0-9]+-[0-9]?\\/[a-z0-9]{32}\\.gif"
+  },
+  "id": 291
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "dngz.net"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "dngz.net\\/g\\d+.js"
+  },
+  "id": 313
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "novipnoad.com"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\/theme\\/js\\/[a-z0-9]{5,}\\.js\\?v="
+  },
+  "id": 1012
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "firstParty",
+   "initiatorDomains": [
+    "pcbeta.com"
+   ],
+   "regexFilter": "pcbeta\\.com\\/data\\/cache\\/(?:common)?_[a-z]{14}\\.js\\?",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5515
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "initiatorDomains": [
+    "69t79.com"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "https:\\/\\/[a-z0-9.]{6,}.(com|net)\\/[\\s\\S]*[a-zA-Z0-9]{6,}.(gif|png)",
+   "resourceTypes": [
+    "image"
+   ]
+  },
+  "id": 5573
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": ":\\/\\/666(7|8)[0-9]{2}.xyz\\/",
+   "resourceTypes": [
+    "image"
+   ]
+  },
+  "id": 5574
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.(com|cn|top|xyz)\\/(j|K)\\/[0-9]{6}$",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5612
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.(cyou|ink)\\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\\?",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5613
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.ahp[0-9]{2}\\.site:",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5614
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.htkk[0-9]{1,2}\\.top:",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5615
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.zdx[0-9]{1,2}\\.site:",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 5616
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "domainType": "thirdParty",
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\.(cc|com|top|xyz)\\/i\\/v$",
+   "resourceTypes": [
+    "xmlhttprequest"
+   ]
+  },
+  "id": 5652
+ },
+ {
+  "action": {
+   "type": "allow"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "520cc.cc"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "520cc.cc\\/ad[a-z]{1,12}\\/[a-z0-9A-Z]{12,}.js"
+  },
+  "id": 5698
+ }
+]
